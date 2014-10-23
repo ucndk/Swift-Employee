@@ -8,5 +8,5 @@
 
 import Foundation
 
-println("Hello, World!")
-
+let emp1 = Employee(name: "Christian", position: "Developer", salary: 20000)
+println("Employee \(emp1.name) works as a \(emp1.position)")
