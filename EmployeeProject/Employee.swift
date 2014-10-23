@@ -18,4 +18,8 @@ class Employee {
         self.position = position
         self.salary = salary
     }
+    
+    func giveBonus(amount: Double) {
+        salary += amount
+    }
 }

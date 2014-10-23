@@ -15,4 +15,9 @@ class Salesman: Employee {
         self.sales = sales
         super.init(name: name, position: position, salary: salary)
     }
+    
+    override func giveBonus(amount: Double) {
+        super.giveBonus(amount)
+        self.salary += Double(self.sales)/100.0
+    }
 }
